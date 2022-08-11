@@ -555,4 +555,7 @@ footer{
     .foot-1 h3{
         padding-top: 10px;
     }
+    .copy{
+        font-size: 11px;
+    }
 }
