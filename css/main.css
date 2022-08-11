@@ -361,4 +361,7 @@
     .m-form form{
         padding: 6px !important;
     }
+    .flex-col{
+        flex-direction: column;
+   }
 }
