@@ -31,6 +31,8 @@ body {
 .nav>.nav-header>.nav-title {
     display: inline-block;
     font-size: 22px;
+    font-family: "Poppins";
+    font-weight: 800;
     color: #fff;
     /* padding: 10px 10px 10px 10px; */
 }
@@ -133,7 +135,6 @@ body {
 
     .nav>#nav-check:checked~.nav-links {
         height: calc(100vh - 50px);
-
         right: 0px;
         overflow-y: auto;
     }
@@ -468,7 +469,8 @@ footer{
     border: 1px solid transparent;
     outline: none;
     padding-left: 10px;
-    font-size: 14px;
+    font-family: "Poppins";
+    font-size: 13px;
     height: 40px;
     background-color: #fff;
 }
@@ -478,6 +480,7 @@ footer{
     border-radius: 30px;
     background-color: #41246D;
     text-align: center;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 700px){
