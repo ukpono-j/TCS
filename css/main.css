@@ -141,13 +141,14 @@ body {
 }
 
 /* ===================== Hero page  ==============*/
-.hero{
+.hero {
     height: auto;
     width: 100%;
-    border: 1px solid  #41246D;
+    border: 1px solid #41246D;
     padding-top: 59px;
 }
-.hero-container{
+
+.hero-container {
     height: auto;
     padding: 100px 100px 0px 100px;
     display: flex;
@@ -155,76 +156,115 @@ body {
     flex-direction: row;
     width: 100%;
     background-color: #41246D;
-    border: 1px solid  #41246D;
+    border: 1px solid #41246D;
 }
-.hero-container > div{
+
+.hero-container>div {
     width: 100%;
     height: 100vh;
     /* border: 1px solid  #fff/; */
-    position: relative  !important;
+    position: relative !important;
 }
-.hero-container > div h4{
+
+.hero-container>div h4 {
     font-size: 60px;
     font-weight: 700;
     color: white;
     padding-top: 80px;
     line-height: 70px;
 }
-.hero-container > div p{
+
+.hero-container>div p {
     padding-top: 20px;
     font-size: 15px;
     color: #fff;
 }
+
 /* .cc{
     display: flex;
     justify-content: center;
 } */
-.hero-img-container{
-   width: 79%;
-   height: 600px;
-   border-radius: 30%;
-   border: 1px solid  rgb(143, 143, 143);
-   position: absolute;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   left: 30px;
+.hero-img-container {
+    width: 79%;
+    height: 600px;
+    border-radius: 30%;
+    border: 1px solid rgb(143, 143, 143);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 30px;
 }
-.hero-img-container-1{
+
+.hero-img-container-1 {
     width: 70%;
     height: 500px;
     border-radius: 30%;
-    border: 1px solid  rgb(143, 143, 143);
+    border: 1px solid rgb(143, 143, 143);
     background-color: rgb(211, 207, 207);
     position: absolute;
     left: 54px;
     top: 30px;
 }
-.hero-img{
+
+.hero-img {
     position: relative;
     width: 100%;
 }
-@media screen and (max-width: 700px){
-    .hero-container{
-        padding: 100px 30px 0px  30px ;
-        flex-direction:column;
+.hero-btn a{
+    padding:10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 30px;
+    margin: 20px 0px;
+    background-color: #F24080;
+}
+@media screen and (max-width: 700px) {
+    .hero-container {
+        padding: 30px 30px 0px 30px;
+        flex-direction: column;
+    }
+
+    .hero-container>div h4 {
+        font-size: 30px;
+        text-align: center;
+        padding-top: 24px;
+        line-height: 32px;
+    }
+.hero-btn{
+    display: flex;
+    justify-content: center;
+}
+    .sdc {
+        padding-bottom: 50px;
+    }
+
+    .hero-container>div p {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 15px;
+        color: #fff;
     }
 }
-@media screen and (max-width: 600px){
-    .hero-img-container-1{
+
+@media screen and (max-width: 600px) {
+    .hero-img-container-1 {
         width: 65%;
         height: 400px;
     }
-    .hero-img-container{
+
+    .hero-img-container {
         height: 460px;
     }
-    .hero-container > div{
+
+    .hero-container>div {
         width: 100%;
         height: auto;
         /* border: 1px solid  #fff/; */
-        position: relative  !important;
+        position: relative !important;
     }
 }
+
 /* ========================== App;y section ================== */
 .apply-container {
     padding-top: 60px;
@@ -500,17 +540,18 @@ body {
 
 
 /* ======================= FOOTER ------------------- */
-footer{
+footer {
     min-height: 100vh;
     width: 100%;
-    border: 1px solid  #41246D;
+    border: 1px solid #41246D;
     background: url(../images/educator-img12.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
 }
-.footer-overlay{
+
+.footer-overlay {
     background-color: #41246df0;
     padding: 100px 100px 0px 100px;
     position: absolute;
@@ -519,7 +560,8 @@ footer{
     width: 100%;
     min-height: 100vh;
 }
-.subscribe{
+
+.subscribe {
     height: auto;
     padding: 23px 20px;
     width: 100%;
@@ -531,23 +573,27 @@ footer{
     color: white;
     justify-content: space-around;
 }
-.subscribe-1{
+
+.subscribe-1 {
     max-width: 430px;
     height: auto;
     /* border: 1px solid  #000; */
 }
-.subscribe-2{
+
+.subscribe-2 {
     /* width: 70%; */
     height: auto;
     display: flex;
     align-items: center;
     /* border: 1px solid  #000; */
 }
-.subscribe-2 > div{
+
+.subscribe-2>div {
     width: 260px;
     margin: 10px;
 }
-.subscribe-2 input{
+
+.subscribe-2 input {
     width: 100%;
     border-radius: 30px;
     border: 1px solid transparent;
@@ -558,7 +604,8 @@ footer{
     height: 40px;
     background-color: #fff;
 }
-.sub-btn{
+
+.sub-btn {
     padding: 8px;
     color: #fff;
     border-radius: 30px;
@@ -568,7 +615,8 @@ footer{
     text-align: center;
     font-size: 14px;
 }
-.foot{
+
+.foot {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -576,70 +624,85 @@ footer{
     padding-top: 60px;
     padding-bottom: 30px;
 }
-.foot  li a {
+
+.foot li a {
     color: #fff;
     text-decoration: none;
     font-size: 13px;
 }
-.foot li{
+
+.foot li {
     list-style: none;
     line-height: 40px;
 }
-.foot-1{
+
+.foot-1 {
     max-width: 300px;
     height: auto;
     /* border: 1px solid  red; */
 }
-.foot-1 p{
+
+.foot-1 p {
     font-size: 14px;
     padding-top: 6px;
 }
-.social{
+
+.social {
     display: flex;
     /* border: 1px solid  #fff; */
     padding-top: 12px;
     max-width: 140px;
     justify-content: space-between;
 }
-.social > div{
+
+.social>div {
     height: 40px;
     width: 40px;
-    border: 1px solid  #fff;
+    border: 1px solid #fff;
     border-radius: 100%;
 }
-.copy{
+
+.copy {
     font-size: 13px;
     padding-top: 10px;
     padding-bottom: 20px;
     text-align: center;
     color: #fff;
 }
-@media screen and (max-width: 700px){
-    .subscribe{
+
+@media screen and (max-width: 700px) {
+    .subscribe {
         flex-direction: column;
         text-align: center;
     }
-    .subscribe-2{
+
+    .subscribe-2 {
         flex-direction: column;
     }
-    .footer-overlay{
+
+    .footer-overlay {
         background-color: #41246df0;
         padding: 100px 30px 0px 30px;
     }
-    .subscribe p{
+
+    .subscribe p {
         font-size: 13px;
         color: #eee;
     }
-    .foot{
+
+    .foot {
         flex-direction: column;
     }
-    .foot-links h4{
+
+    .foot-links h4 {
         padding-top: 28px;
     }
-    .foot-1 h3{
+
+    .foot-1 h3 {
         padding-top: 10px;
     }
-    .copy{
+
+    .copy {
         font-size: 11px;
     }
 }
