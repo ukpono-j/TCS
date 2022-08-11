@@ -161,8 +161,8 @@ body {
 
 .hero-container>div {
     width: 100%;
-    height: 100vh;
-    /* border: 1px solid  #fff/; */
+    height: auto;
+    border: 1px solid  #fff;
     position: relative !important;
 }
 
@@ -179,46 +179,23 @@ body {
     font-size: 15px;
     color: #fff;
 }
-
-/* .cc{
-    display: flex;
-    justify-content: center;
-} */
-.hero-img-container {
-    width: 79%;
-    height: 600px;
-    border-radius: 30%;
-    border: 1px solid rgb(143, 143, 143);
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    left: 30px;
-}
-
-.hero-img-container-1 {
-    width: 70%;
-    height: 500px;
-    border-radius: 30%;
-    border: 1px solid rgb(143, 143, 143);
-    background-color: rgb(211, 207, 207);
-    position: absolute;
-    left: 54px;
-    top: 30px;
-}
-
-.hero-img {
-    position: relative;
-    width: 100%;
-}
-.hero-btn a{
-    padding:10px 20px;
+.hero-btn a {
+    padding: 10px 20px;
     text-decoration: none;
     color: #fff;
     border-radius: 30px;
     margin: 20px 0px;
+    display: inline-block;
     background-color: #F24080;
 }
+/* .sdc::after{
+    content: url(../images/educator-img4.png);
+    opacity: 0.4;
+    position: relative;
+    left: 80%;
+    top: -70%;
+    z-index: 100;
+} */
 @media screen and (max-width: 700px) {
     .hero-container {
         padding: 30px 30px 0px 30px;
@@ -226,17 +203,21 @@ body {
     }
 
     .hero-container>div h4 {
-        font-size: 30px;
+        font-size: 36px;
         text-align: center;
         padding-top: 24px;
-        line-height: 32px;
+        line-height: 39px;
     }
-.hero-btn{
-    display: flex;
-    justify-content: center;
-}
+
+    .hero-btn {
+        display: flex;
+        justify-content: center;
+    }
+
     .sdc {
         padding-bottom: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .hero-container>div p {
