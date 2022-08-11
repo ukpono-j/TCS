@@ -112,7 +112,7 @@
     }
     .nav > .nav-links > a {
       display: block;
-      margin: 20px 20px;
+      margin: 20px 30px;
       /* width: 100%; */
     }
     .nav > #nav-check:not(:checked) ~ .nav-links {
