@@ -12,16 +12,18 @@ body {
 }
 
 .nav {
-    height: 50px;
+    /* top: 50px; */
+    height: auto;
     width: 100%;
     background-color: #41246D;
-    position: relative;
+    /* position: relative; */
+    border-bottom: 1px solid #9b9b9b;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    z-index: 10;
-    padding: 30px 100px;
+    z-index: 100;
+    padding: 20px 100px;
 }
 
 .nav>.nav-header {
@@ -77,7 +79,7 @@ body {
 
 @media (max-width:600px) {
     .nav {
-        padding: 32px 30px;
+        padding: 20px 30px;
 
     }
 
@@ -162,7 +164,7 @@ body {
 .hero-container>div {
     width: 100%;
     height: auto;
-    border: 1px solid  #fff;
+    /* border: 1px solid  #fff; */
     position: relative !important;
 }
 
@@ -170,7 +172,7 @@ body {
     font-size: 60px;
     font-weight: 700;
     color: white;
-    padding-top: 80px;
+    /* padding-top: 80px; */
     line-height: 70px;
 }
 
@@ -196,6 +198,21 @@ body {
     top: -70%;
     z-index: 100;
 } */
+.hero-img-container-1{
+    height: auto;
+    max-width: 550px;
+    position: relative;
+    border-radius: 40%;
+    border: 1px solid  #fff;
+    background-color: #ebe9eb;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.hero-img{
+    width: 100%;
+    /* object-position: bottom; */
+}
 @media screen and (max-width: 700px) {
     .hero-container {
         padding: 30px 30px 0px 30px;
@@ -229,23 +246,75 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .hero-img-container-1 {
-        width: 65%;
-        height: 400px;
-    }
-
-    .hero-img-container {
-        height: 460px;
-    }
-
-    .hero-container>div {
-        width: 100%;
+    .hero-img-container-1{
         height: auto;
-        /* border: 1px solid  #fff/; */
-        position: relative !important;
+        max-width: 550px;
+        padding: 10px;
     }
 }
 
+
+/* ============================AB ================ */
+.ab{
+    height: auto;
+    width: 100%;
+    border: 1px solid  #41246D;
+}
+.ab-container{
+    display: flex;
+    flex-direction: row;
+    padding: 100px 60px;
+}
+.ab-container > div{
+    padding:10px 40px;
+    width: 100%;
+    border: 1px solid  #efefef;
+    height: auto;
+}
+.ab-container > div h3{
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 53px;
+    display: flex;
+}
+.ab-container > div p{
+    padding-top: 13px;
+}
+.ab-img-1{
+    width: 100%;
+    height: 350px;
+    border-radius: 40px;
+    border: 1px solid  #efefef;
+}
+.ab-img-1 img{
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ab-img-2{
+    height: 450px;
+    width: 100%;
+    border: 1px solid  #ebe9eb;
+    border-radius: 40px;
+    margin: 60px 0px 0px 0px;
+}
+.ab-img-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+@media screen and (max-width: 700px){
+    .ab-container{
+        flex-direction: column;
+        padding: 60px 30px;
+    }
+    .ab-img-1{
+        width: 100%;
+        height: 280px;
+    }
+}
 /* ========================== App;y section ================== */
 .apply-container {
     padding-top: 60px;
