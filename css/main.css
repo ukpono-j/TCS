@@ -314,6 +314,20 @@ body {
         width: 100%;
         height: 280px;
     }
+    .ab-container > div h3{
+        font-size: 21px;
+        line-height: 25px;
+    }
+    .ab-container > div{
+        padding:10px 0px;
+    }
+    .ab-img-2{
+        height: 290px;
+    }
+    .ab-img-1{
+        width: 100%;
+        height: 250px;
+    }
 }
 /* ========================== App;y section ================== */
 .apply-container {
@@ -754,5 +768,12 @@ footer {
 
     .copy {
         font-size: 11px;
+    }
+ 
+}
+
+@media screen and (max-width: 338px){
+    .subscribe-2>div {
+        width: 100%;
     }
 }
